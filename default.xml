@@ -1135,4 +1135,8 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+
+  <!-- chitangUI stuff-->
+  <include name="snippets/chitang.xml"/>
+
 </manifest>
