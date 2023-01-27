@@ -10,4 +10,7 @@
     <remove-project name="LineageOS/android_frameworks_base" />
     <project path="frameworks/base" name="android_frameworks_base" remote="chitang" />
 
+    <remove-project name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/chitang" name="android_vendor_chitang" remote="chitang" />
+
 </manifest>
