@@ -12,7 +12,7 @@
 
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project path="vendor/chitang" name="android_vendor_chitang" remote="chitang">
-        <linkfile src="build/envsetup.sh" dest="vendor/lineage/build/envsetup.sh" />
+        <linkfile src="." dest="vendor/lineage" />
     </project>
 
     <remove-project name="LineageOS/android_packages_apps_Settings" />
