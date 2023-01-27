@@ -3,4 +3,7 @@
     <remote name="chitang"
             fetch="https://github.com/chitangUI"
             revision="tehc"/>
+
+    <remove-project name="LineageOS/android" />
+    <project path="android" name="android" remote="chitang" />
 </manifest>
