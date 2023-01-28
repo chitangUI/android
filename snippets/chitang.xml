@@ -11,9 +11,7 @@
     <project path="frameworks/base" name="android_frameworks_base" remote="chitang" />
 
     <remove-project name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/chitang" name="android_vendor_chitang" remote="chitang">
-        <linkfile src="." dest="vendor/lineage" />
-    </project>
+    <project path="vendor/chitang" name="android_vendor_chitang" remote="chitang" />
 
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="chitang" />
