@@ -31,5 +31,6 @@
         remote="chitang" />
 
     <project path="packages/apps/ChiTangUI" name="android_packages_apps_ChiTangUI" remote="chitang" />
+    <project path="packages/apps/ChiTangUI_unpriv" name="android_packages_apps_ChiTangUI_unpriv" remote="chitang" />
 
 </manifest>
