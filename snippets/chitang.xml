@@ -36,4 +36,7 @@
     <!-- Inject the power of 冥灯！-->
     <project path="packages/apps/GhostLamp" name="android_packages_app_GhostLamp" remote="chitang" />
 
+    <!-- We need some close-source sh1t -->
+    <project path="vendor/addons" name="android_vendor_addons" remote="chitang"/>
+    
 </manifest>
