@@ -43,4 +43,6 @@
     <!-- We need some close-source sh1t -->
     <project path="vendor/addons" name="android_vendor_addons" remote="chitang"/>
     
+    <project path="external/electronic-wooden-fish" name="android_external_electronic-wooden-fish" remote="chitang" />
+    
 </manifest>
