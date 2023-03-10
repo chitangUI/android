@@ -15,7 +15,7 @@ To get started with chitangUI, you'll need to get familiar with [Source Control 
 To initialize your local repository using the chitangUI trees, use a command like this:
 
 ```bash
-repo init -u https://github.com/chitangUI/android.git -b tehc
+repo init -u https://github.com/chitangUI/android.git -b tehc --git-lfs
 ```
 
 Then to sync up:
