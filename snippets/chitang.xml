@@ -32,17 +32,26 @@
     <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
     <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard"
         remote="chitang" />
-    
+
     <project path="packages/apps/ChiTangUI" name="android_packages_apps_ChiTangUI" remote="chitang" />
-    <project path="packages/apps/ChiTangUI_unpriv" name="android_packages_apps_ChiTangUI_unpriv" remote="chitang" />
-    
+    <project path="packages/apps/ChiTangUI_unpriv" name="android_packages_apps_ChiTangUI_unpriv"
+        remote="chitang" />
+
 
     <!-- Inject the power of 冥灯！-->
     <project path="packages/apps/GhostLamp" name="android_packages_app_GhostLamp" remote="chitang" />
 
     <!-- We need some close-source sh1t -->
-    <project path="vendor/addons" name="android_vendor_addons" remote="chitang"/>
-    
-    <project path="external/electronic-wooden-fish" name="android_external_electronic-wooden-fish" remote="chitang" />
-    
+    <project path="vendor/addons" name="android_vendor_addons" remote="chitang" />
+
+    <project path="external/electronic-wooden-fish" name="android_external_electronic-wooden-fish"
+        remote="chitang" />
+
+    <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio"
+        remote="chitang" groups="qcom,legacy-qcom" revision="tehc-caf-msm8974" />
+    <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display"
+        remote="chitang" groups="qcom,legacy-qcom" revision="tehc-caf-msm8974" />
+    <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media"
+        remote="chitang" groups="qcom,legacy-qcom" revision="tehc-caf-msm8974" />
+
 </manifest>
