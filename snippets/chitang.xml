@@ -47,11 +47,6 @@
     <project path="external/electronic-wooden-fish" name="android_external_electronic-wooden-fish"
         remote="chitang" />
 
-    <!-- qcom drivers for msm8974 -->
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display"
-        remote="chitang" groups="pdk-qcom,qcom,qcom_display" />
-
     <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio"
         remote="chitang" groups="qcom,legacy-qcom" revision="tehc-caf-msm8974" />
     <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display"
